@@ -1,0 +1,54 @@
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+*.sublime-workspace
+
+# ---- 环境与密钥（切勿提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+id_rsa
+id_ed25519
+
+# ---- 依赖与构建产物 ----
+node_modules/
+dist/
+build/
+out/
+target/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ---- Java / Android ----
+*.class
+*.jar
+.gradle/
+local.properties
+
+# ---- 临时文件 ----
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
